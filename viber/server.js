@@ -24,11 +24,11 @@ const dialogflowSessionClient =
     require('../botlib/dialogflow_session_client.js');
 const app = express();
 
-const webhookUrl = 'Place webhook url here';
-const projectId = 'Place dialogflow project id here';
-const botName = 'Place Viber bot name here';
+const webhookUrl = 'autospares';
+const projectId = 'autospares-xfsn';
+const botName = 'AutoSpares';
 const botAvatarLink = 'Place image link less than 100kb';
-const viberToken = 'Place Viber token here';
+const viberToken = '51ee3c105167df8b-7ed927cc69bfef06-63118add98a54093';
 
 const sessionClient = new dialogflowSessionClient(projectId);
 
